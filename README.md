@@ -8,5 +8,5 @@ The Board Library project is extendable to any 64+ square board game of your cho
 			 <a href="http://developer.android.com/reference/java/net/Socket.html">Web Server</a>, <a href="http://developer.android.com/reference/android/widget/ImageView.html">Image Views</a>, 
 			 <a href="http://developer.android.com/reference/android/widget/ImageView.html">Image Buttons</a> and <a href="http://developer.android.com/guide/topics/data/data-storage.html">File Importing/Exporting</a> 
 			 (<a href="http://en.wikipedia.org/wiki/Portable_Game_Notation">pgn</a>).<br><br>
-Although, if you are unsure whether you're ready for an Android project of this scale, take a look at <b><a href="http://cse.spsu.edu/cslab/tutors/android.htm">the Android Network Tutorial</a></b>
+Although, if you are unsure whether you're ready for an Android project of this scale, take a look at the <b><a href="http://cse.spsu.edu/cslab/tutors/android.htm">Android Network Tutorial</a></b>
 to get acquainted with Android in general, and if that was easy take a look at <b><a href="https://developer.android.com/training/basics/firstapp/index.html?hl=it">Building Your First App</a></b> from the <a href="https://developer.android.com">Android Site</a>.
