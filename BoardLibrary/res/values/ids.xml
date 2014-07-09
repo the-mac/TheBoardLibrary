@@ -4,10 +4,11 @@
     
     <item type="id" name="start" />
     <item type="id" name="end" />
+    <item type="id" name="offerDraw" />
     <item type="id" name="toast" />
     <item type="id" name="quit" />
     <item type="id" name="points" />
-    <item type="id" name="joust" />
+    <item type="id" name="waiting" />
     <item type="id" name="tactics_end" />
     <item type="id" name="joust_end" />
     <item type="id" name="joust_rematch" />

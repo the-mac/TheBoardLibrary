@@ -11,6 +11,11 @@
     <string name="game_start_title">Waiting for opponent</string>
     
     <!-- Basic UI Text for layout -->
+    <string name="ending_match_title">Are you sure?</string>
+    <string name="ending_resign">Resign</string>
+    <string name="ending_offer_draw">Offer Draw</string>
+    
+    <!-- Basic UI Text for layout -->
     <string name="hello">Hello,</string>
     <string name="update">Update</string>
     <string name="updateContent">This is the content that gets updated</string>
