@@ -1,3 +1,9 @@
+# Local OS/Workspace Files
+.metadata/
+.classpath
+Thumbs.db
+.DS_Store
+
 # Built application files
 *.apk
 *.ap_
