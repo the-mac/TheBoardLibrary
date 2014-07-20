@@ -8,8 +8,31 @@ Setting Up Your Piece(s)
 The Piece(s) for your game are typically pretty easy to set up because of the required (abstract) methods such as setUpMoves(), firstColor(), and secondColor(); Where you can set specific move locations to be legal squares for that Piece, the first image/drawable for that Piece and the second image/drawable for that Piece respectively.
 
 An example of how the Knight in ChessWars, Knighted and United Kingdoms moves is as follows:
+
 ```
 
+/** 
+ * This is called each time a piece moves, and should use the MOVE constants 
+ * (MOVE_UP, etc.). When assigning the move values from 1 - 8, you can use a 
+ * clockwise motion (move_1 - top left, move_2 - top, etc.). These moves are 
+ * used set up the direction of movement and final position of a move.
+ * For example with the Knight in Knighted or Chess:
+ * 
+ * move_1 = fromCurPos(MOVE_UP_LEFT + MOVE_LEFT); // 6
+ * move_2 = fromCurPos(MOVE_UP_LEFT + MOVE_UP); // 15
+ * ...etc.
+ * 
+ *   14| 15| 16| 17| 18
+ *   ------------------
+ *   6 | 7 | 8 | 9 | 10
+ *   ------------------
+ *  -2 |-1 |pos| 1 | 2
+ *   ------------------
+ * -10 |-9 |-8 |-7 | 10
+ *   ------------------
+ * -18 |-17|-16|-15|-14
+ * 
+ */
 @Override
 public void setUpMoves() {
 
@@ -39,7 +62,9 @@ private int validateMove(int move) {
 
 ```
 
-The Java documentation for the setUpMoves method can be found [here](http://the-mac.us/board/javadoc/us/the/mac/board/Board.Piece.html#setUpMoves()), or click or copy the following link: http://the-mac.us/board/javadoc/us/the/mac/board/Board.Piece.html#setUpMoves().
+The Java documentation for the setUpMoves method can be found [here](http://the-mac.us/board/javadoc/us/the/mac/board/Board.Piece.html#setUpMoves()), or click/copy the following link: http://the-mac.us/board/javadoc/us/the/mac/board/Board.Piece.html#setUpMoves().
+
+The remaining Piece(s) may have different logic than this depending upon your game, but the concept should stillbe the same. In some cases the move_# variables may not be enough (for example with a Bishop from Chess), so ArrayList<Integer> and Square.setPossible(boolean possible) may be a friend when extedning moves accross the board.
 
 
 Licensing
@@ -59,7 +84,7 @@ The Board Library project is extendable to any 64+ square board game of your cho
 			 
 Getting Started
 ===============
-To get your own version/fork of the board library simply following link/button above that says fork. If you want to keep you project private simply clone your own version and start again in your own repo, but in both cases keep in mind that there will be bug fixes and library enhancements that will be coming from the remote repo: https://github.com/the-mac/TheBoardLibrary.git. So keep an open eye for pull requests and pull as often as possible.
+To get your own version/fork of the board library simply following the link/button on the [Knighted version of TheBoarLibrary](https://github.com/cdm2012/TheBoardLibrary) (https://github.com/cdm2012/TheBoardLibrary) that says fork, which will provide you with your own version of TheBoardLibrary with a working sample project. If you want to keep you version/project private simply clone (from your fork) and start your board game in your own private repo, but in both cases keep in mind that there will be bug fixes and library enhancements that will be coming from the remote repo: https://github.com/the-mac/TheBoardLibrary.git. So keep an open eye for pull requests and pull as often as possible.
 
 On a lighter note, TheBoardLibrary is fun to be a part of as an experienced developer and a great starter application for those that are blooming Android Developers. And if you are unsure whether you're ready for an Android project of this scale, take a look at the <b><a href="http://cse.spsu.edu/cslab/tutors/android.htm">Android Network Tutorial</a></b> to get acquainted with Android in general, and if that was easy take a look at <b><a href="https://developer.android.com/training/basics/firstapp/index.html?hl=it">Building Your First App</a></b> from the <a href="https://developer.android.com">Android Developer Site</a>.
 
