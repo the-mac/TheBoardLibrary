@@ -1,19 +1,19 @@
 Welcome to one of the most advanced board game platforms built on top of the Android SDK. 
 ===============
-<h5>With TheBoardLibrary students are making board games such as ChessWars, Xiangqi, United Kingdoms and many more. The library includes Multi-Player (currently over Bluetooth), Tutoring/Guide facilities (to teach someone how to play your game), and board editor functions (to allow your users to learn more about the games they play).
-<h5>
-![ChessWars](https://lh5.ggpht.com/jXByrzsaDxRo23cinCcnGJv7jDBrJiaeSlJWGl5jYrKnBDFDEkQ7KnLffQW5OfO8D2A=h900)
 
-What you should know before getting started...
+With TheBoardLibrary students are making board games such as Chess, Xiangqi, Knighted and many more. The library runs on Android 2.2 (Level 8), or Froyo for all you snack lovers out there. So please make sure when building your own version of the library to have that SDK (2.2) installed in your Android SDK Manager.
+
+Brief Introduction
 ===============
+<h5>The Board Library includes Multi-Player (currently over Bluetooth), Tutoring/Guide facilities (to teach someone how to play your game), and board editor functions (to allow your users to learn more about the games they play).
+<h5>
+
 The Board Library project is extendable to any 64+ square board game of your choosing, and is currently using (or planned to use) Android features such as <a href="http://developer.android.com/guide/topics/connectivity/bluetooth.html">Bluetooth</a>,
 			 <a href="http://developer.android.com/reference/java/net/Socket.html">Web Server</a>, <a href="http://developer.android.com/reference/android/widget/ImageView.html">Image Views</a>, 
 			 <a href="http://developer.android.com/reference/android/widget/ImageView.html">Image Buttons</a> and <a href="http://developer.android.com/guide/topics/data/data-storage.html">File Importing/Exporting</a> 
 			 (<a href="http://en.wikipedia.org/wiki/Portable_Game_Notation">pgn</a>).<br><br>
 			 
-TheBoardLibrary is fun to be a part of as an experienced developer and a great starter application for those that are blooming Android Developers. If you are unsure whether you're ready for an Android project of this scale, take a look at the <b><a href="http://cse.spsu.edu/cslab/tutors/android.htm">Android Network Tutorial</a></b> to get acquainted with Android in general, and if that was easy take a look at <b><a href="https://developer.android.com/training/basics/firstapp/index.html?hl=it">Building Your First App</a></b> from the <a href="https://developer.android.com">Android Developer Site</a>. After litmus testing your strength in Android, you should be able to start running the Knighted Sample Project linked below (in the Getting Started section).
-
-Also, the library runs on Android 2.2 (Level 8), or Froyo for all you snack lovers out there. So please make sure when building your own version of the library to have that SDK (2.2) installed in your Android SDK Manager.
+TheBoardLibrary is fun to be a part of as an experienced developer and a great starter application for those that are blooming Android Developers. If you are unsure whether you're ready for an Android project of this scale, take a look at the <b><a href="http://cse.spsu.edu/cslab/tutors/android.htm">Android Network Tutorial</a></b> to get acquainted with Android in general, and if that was easy take a look at <b><a href="https://developer.android.com/training/basics/firstapp/index.html?hl=it">Building Your First App</a></b> from the <a href="https://developer.android.com">Android Developer Site</a>. After litmus testing your strength in Android, you should be able to start running the Knighted Sample Project linked below.
 
 If you have any further questions or want to see more sample code, please refer to our [FAQ](https://github.com/the-mac/TheBoardLibrary/wiki/Frequently-Asked-Questions) page.
 

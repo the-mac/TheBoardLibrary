@@ -1,0 +1,12 @@
+<us.the.mac.knighted.KnightedBoard
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:board="http://schemas.android.com/apk/res/us.the.mac.knighted"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Knighted" >
+
+    <us.the.mac.knighted.pieces.Knight board:square="d4" board:color="white" />
+    <us.the.mac.knighted.pieces.Knight board:square="f5" board:color="black" />
+
+</us.the.mac.knighted.KnightedBoard>

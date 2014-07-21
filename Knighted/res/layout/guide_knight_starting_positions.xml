@@ -1,0 +1,29 @@
+<us.the.mac.board.GameGuide xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:board="http://schemas.android.com/apk/res/us.the.mac.knighted"
+    xmlns:guide="http://schemas.android.com/apk/res/us.the.mac.knighted"
+    android:id="@id/guide_knight_starting_positions"
+    guide:end_message="@string/guide_knight_starting_end_message"
+    guide:end_state="@string/guide_knight_starting_end_state"
+    guide:movement_color="both"
+    guide:next_guide="@id/guide_knight_movement"
+    guide:start_message="@string/guide_knight_starting_start_message"
+    guide:step_messages="@array/guide_knight_starting_messages"
+    guide:steps="@array/no_steps" >
+    
+    <us.the.mac.knighted.pieces.Knight
+        board:square="b1"
+        board:color="white" />
+
+    <us.the.mac.knighted.pieces.Knight
+        board:square="g1"
+        board:color="white" />
+
+    <us.the.mac.knighted.pieces.Knight
+        board:square="b8"
+        board:color="black" />
+
+    <us.the.mac.knighted.pieces.Knight
+        board:square="g8"
+        board:color="black" />
+    
+</us.the.mac.board.GameGuide>
