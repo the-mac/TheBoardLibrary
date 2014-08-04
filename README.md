@@ -96,7 +96,7 @@ To get your own version/fork of the board library simply clicking the link/butto
 If you want to keep your version/project private, simply clone (from your fork) and start your board game in your own private repo (outside of GitHub -> locally on your computer or possibly on Bitbucket?), but in both cases keep in mind that there will be bug fixes and library enhancements that will be coming from the remote repo: https://github.com/the-mac/TheBoardLibrary.git. So keep an open eye for pull requests and pull as often as possible.
 
 
-Once again if you have any further questions or want to see more sample code, please refer to our [FAQ](https://github.com/the-mac/TheBoardLibrary/wiki/Frequently-Asked-Questions) page, Good Luck!
+Once again if you have any further questions or want to see more sample code, please refer to our [FAQ](https://github.com/the-mac/TheBoardLibrary/wiki/Frequently-Asked-Questions) page and Good Luck!
 
 # CONTRIBUTORS
 
