@@ -105,6 +105,7 @@ from around the world. They include (but are not limited to):
 
 * Michael Adeyosoye
 * Christopher Miller
+* Kyle Bechtel
 * Nathan Louis
 * Greg Newman
 * Itsoya Abebe
