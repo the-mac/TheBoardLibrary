@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="guide_knight_starting_positions" type="id"/>
+    <item name="guide_knight_movement" type="id"/>
+</resources>

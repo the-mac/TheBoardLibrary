@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Knighted</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- GUIDE - KNIGHT STARTING -->
+    <string name="guide_knight_starting_start_message">The Knights start on the second to last position in each of the four conrners of the board</string>
+    <string name="guide_knight_starting_end_message">The next guide covers Knighte movement</string>
+    <string-array name="guide_knight_starting_messages">
+        <item >Your first move will be into the board&#8230;Nc3</item>
+        <item >Your oponents first move will be deeper into the board&#8230;Nd5, where you take him!</item>
+        <item >Your last move will be to take the Knight on d5&#8230;Nxd5</item>
+    </string-array>
+    <string name="guide_knight_starting_end_state">1n4n1/8/8/8/8/8/8/1N4N1 w - - 0 1</string>
+    
+    <!-- GUIDE - KNIGHT MOVEMENT -->
+    <string name="guide_knight_movement_start_message">The Knights start on the second to last position on the board</string>
+    <string name="guide_knight_movement_end_message">Congrats, the Knight has moved and taken a piece</string>
+    <string-array name="guide_knight_movement_messages">
+        <item >Your first move will be into the board&#8230;Nc3</item>
+        <item >Your oponents first move will be deeper into the board&#8230;Nd5, where you take him!</item>
+        <item >Your last move will be to take the Knight on d5&#8230;Nxd5</item>
+    </string-array>
+    <string-array name="guide_knight_movement_steps">
+        <item >Nc3</item>
+        <item >Nd5</item>
+        <item >Nxd5</item>
+    </string-array>
+    <string name="guide_knight_movement_end_state">8/8/8/8/3n4/8/8/8 w - - 0 1</string>
+    
+</resources>

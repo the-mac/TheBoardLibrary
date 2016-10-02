@@ -8,7 +8,7 @@ Implementing a Board Project
 
 * The second step in setting up your project is renaming the Sample project to your own project's name
 
-* The third step in setting up your project is [creating piece images (dimensions 54 X 138)](https://github.com/the-mac/TheBoardLibrary/wiki/Frequently-Asked-Questions#make-a-piece---image) that suit your game and placng them in drawables
+* The third step in setting up your project is [creating piece images (dimensions 54 X 138)](https://github.com/the-mac/TheBoardLibrary/wiki/Frequently-Asked-Questions#make-a-piece---image) that suit your game and placng them in the drawables folder
 
 * The next step is [setting Up Your Piece](https://github.com/the-mac/TheBoardLibrary/blob/master/README.md#setting-up-your-pieces) classes and movement logic
 
