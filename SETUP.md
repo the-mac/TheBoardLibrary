@@ -1,4 +1,3 @@
-
 Implementing a Board Project
 ===============
 
@@ -6,7 +5,7 @@ Implementing a Board Project
 
 ![ChessWars](https://lh5.ggpht.com/jXByrzsaDxRo23cinCcnGJv7jDBrJiaeSlJWGl5jYrKnBDFDEkQ7KnLffQW5OfO8D2A=h900)
 
-* The second step in setting up your project is renaming the Sample project to your own project's name
+* The second step in setting up your project is copying the Sample project, and renaming the copied project to your own project's name
 
 * The third step in setting up your project is [creating piece images (dimensions 54 X 138)](https://github.com/the-mac/TheBoardLibrary/wiki/Frequently-Asked-Questions#make-a-piece---image) that suit your game and placing them in the drawables folder
 
